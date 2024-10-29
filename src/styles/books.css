@@ -2,8 +2,8 @@
   display: flex; /* Arrange book entries side-by-side (optional) */
   flex-wrap: wrap; /* Allow entries to wrap to next line (optional) */
   justify-content: space-between; /* Distribute entries evenly (optional) */
-  margin: 20px auto; /* Add margin for spacing */
-  width: 80%; /* Set a maximum width (optional) */
+  margin: 10px auto; /* Add margin for spacing */
+  width: 100%; /* Set a maximum width (optional) */
 }
 
 .book-container {
