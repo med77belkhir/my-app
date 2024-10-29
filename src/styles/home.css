@@ -1,0 +1,29 @@
+.main-container {
+  text-align: center; /* Center align content */
+  padding: 20px; /* Add padding for spacing */
+}
+
+h1 {
+  font-size: 2em; /* Increase heading size */
+  margin-bottom: 15px; /* Add margin below heading */
+}
+
+form {
+  display: flex; /* Arrange input fields side-by-side */
+  flex-direction: column; /* Stack inputs vertically */
+  gap: 10px; /* Add spacing between input fields */
+}
+
+input[type="text"],
+input[type="submit"] {
+  padding: 10px; /* Add padding to input fields and button */
+  border: 1px solid #ccc; /* Add a light border */
+  border-radius: 5px; /* Add rounded corners */
+  width: 250px; /* Set a fixed width for input fields */
+}
+
+input[type="submit"] {
+  background-color: #4caf50; /* Set background color for submit button */
+  color: white; /* Set text color for submit button */
+  cursor: pointer; /* Change cursor to indicate clickability */
+}
